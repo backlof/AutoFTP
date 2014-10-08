@@ -28,10 +28,12 @@ Customize information
 
 - Open *Listener.ps1* in a text editor
 - Find the following lines
-    $serverAdress = "YOUR SERVER/"
-    $uploadDir = "UPLOAD DIRECTORY/"
-    $username = "YOUR USERNAME"
-    $password = "YOUR PASSWORD"
+```
+$serverAdress = "YOUR SERVER/"
+$uploadDir = "UPLOAD DIRECTORY/"
+$username = "YOUR USERNAME"
+$password = "YOUR PASSWORD"
+```
 - Enter your credentials
 - Replace all instances of *FILETYPE* with the file extension you want
     $fsw = New-Object IO.FileSystemWatcher $location, "*.FILETYPE" -Property @{
