@@ -20,7 +20,7 @@ Set-ExecutionPolicy RemoteSigned
 Choose location for script to monitor
 -------
 
-- Right click *Choose folder.ps1*
+- Right click *Folder.ps1*
 - Hit *"Run with Powershell"*
 
 You can do this many times
