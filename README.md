@@ -11,7 +11,9 @@ Enable Powershell on your computer
 - Start menu
 - Type Windows Powershell
 - Copy the command
-    Set-ExecutionPolicy RemoteSigned
+```
+Set-ExecutionPolicy RemoteSigned
+```
 - Paste it into console
 - Enter
 
@@ -36,7 +38,9 @@ $password = "YOUR PASSWORD"
 ```
 - Enter your credentials
 - Replace all instances of *FILETYPE* with the file extension you want
-    $fsw = New-Object IO.FileSystemWatcher $location, "*.FILETYPE" -Property @{
+```
+$fsw = New-Object IO.FileSystemWatcher $location, "*.FILETYPE" -Property @{
+```
 - Change *".txt"* to whatever file type you want
 
 Start the script
