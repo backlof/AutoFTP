@@ -1,7 +1,7 @@
 AutoFTP
 =======
 
-Listens for new files of a certain file extension, and uploads them to an FTP server
+Listens for new files of a specific file extension, and uploads them to an FTP server
 
 All the scripts have to be in the same folder
 
@@ -41,7 +41,6 @@ $password = "YOUR PASSWORD"
 ```
 $fsw = New-Object IO.FileSystemWatcher $location, "*.FILETYPE" -Property @{
 ```
-- Change *".txt"* to whatever file type you want
 
 Start the script
 -------
