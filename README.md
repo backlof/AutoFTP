@@ -1,12 +1,10 @@
-AutoFTP
-=======
+#   AutoFTP
 
-Listens for new files of a specific file extension, and uploads them to an FTP server
+The scripts listen for new files of a specific file extension, and uploads them to an FTP server.
 
-All the scripts have to be in the same folder
+** All the scripts have to be in the same folder **
 
-Enable Powershell on your computer
--------
+###  Enable Powershell on your computer
 
 - Start menu
 - Type Windows Powershell
@@ -17,18 +15,16 @@ Set-ExecutionPolicy RemoteSigned
 - Paste it into console
 - Enter
 
-Choose location for script to monitor
--------
+###  Choose location for script to monitor
 
 - Right click *Folder.ps1*
-- Hit *"Run with Powershell"*
+- Hit `Run with Powershell`
 
 You can do this many times
 
-Customize information
--------
+###  Customize information
 
-- Open *Listener.ps1* in a text editor
+- Open `Listener.ps1` in a text editor
 - Find the following lines
 ```
 $serverAdress = "YOUR SERVER/"
@@ -37,13 +33,12 @@ $username = "YOUR USERNAME"
 $password = "YOUR PASSWORD"
 ```
 - Enter your credentials
-- Replace all instances of *FILETYPE* with the file extension you want
+- Replace all instances of `FILETYPE` with the file extension you want
 ```
 $fsw = New-Object IO.FileSystemWatcher $location, "*.FILETYPE" -Property @{
 ```
 
-Start the script
--------
+###	Start the script
 
 - Right click *Start.ps1*
 - Hit *"Run with Powershell"*
