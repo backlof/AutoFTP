@@ -2,14 +2,14 @@
 
 The scripts listen for new files of a specific file extension, and uploads them to an FTP server.
 
-** All the scripts have to be in the same folder **
+**All the scripts have to be in the same folder**
 
 ###  Enable Powershell on your computer
 
 - Start menu
 - Type Windows Powershell
 - Copy the command
-- ```
+```
 Set-ExecutionPolicy RemoteSigned
 ```
 - Paste it into console
