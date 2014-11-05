@@ -8,7 +8,8 @@ The scripts listen for new files of a specific file extension, and uploads them 
 
 - Start menu
 - Type Windows Powershell
-- Copy the command```
+- Copy the command
+- ```
 Set-ExecutionPolicy RemoteSigned
 ```
 - Paste it into console
